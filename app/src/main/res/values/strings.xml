@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="submit">Submit</string>
+    <string name="get_books">get Books</string>
+</resources>
