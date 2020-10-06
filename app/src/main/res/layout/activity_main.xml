@@ -19,9 +19,9 @@
         android:gravity="center_horizontal" />
          <Spinner
              android:layout_marginBottom="8dp"
-             layout android:layout_width="wrap_content"
-             layout android:layout_height="wrap_content"
-             android:id="@+id/"
+             android:layout_width="wrap_content"
+             android:id="@+id/spinner"
+             android:layout_height="wrap_content"></Spinner>
     <Button
         android:id="@+id/btnGetBooks"
         android:layout_width="200dp"

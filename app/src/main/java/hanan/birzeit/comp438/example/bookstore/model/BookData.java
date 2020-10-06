@@ -8,10 +8,10 @@ public class BookData implements IBookData {
 
 public BookData(){
 
-    books.add(new Book (300, "DataStructure", "thinking" ));
+    books.add(new Book (300, "thinking in java", "java" ));
     books.add(new Book (3, "java", "thinking222" ));
-    books.add(new Book (1300, "c", "c1" ));
-    books.add(new Book (30, "c#", "cccc" ));
+    books.add(new Book (1300, "c", "c" ));
+    books.add(new Book (30, "xxxxxxxxxxxx", "python" ));
     books.add(new Book (340, "javaScript", "th" ));
 }
 
@@ -25,6 +25,12 @@ public List<Book> getBooks(String cat){
      return data;
     // here will be dataBase connection (sql or web service)
 }
+
+    @Override
+    public String[] getCatigories() {
+    String[] cats = new String[] {"java","c" , "python"};
+    return cats;
+    }
 
 
 }

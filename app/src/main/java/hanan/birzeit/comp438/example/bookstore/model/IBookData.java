@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface IBookData {
     List<Book> getBooks (String cat);
-    List <String>
+   String[]  getCatigories();
 
 
 }
